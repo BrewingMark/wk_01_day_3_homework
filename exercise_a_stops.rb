@@ -8,6 +8,11 @@ p stops.index("Linlithgow")
 stops.delete("Livingston")
 stops.delete_at(2)
 p stops.length
+p stops[2]
+p stops[-5]
+p stops.at(2)
+p stops.at(-5)
+p stops.slice(2)
 
 #1. Add "Edinburgh Waverley" to the end of the array
 #2. Add "Glasgow Queen St" to the start of the array
