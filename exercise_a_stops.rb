@@ -1,6 +1,9 @@
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow",
 "Livingston", "Haymarket" ]
 
+stops.push("Edinburgh Waverley")
+p stops
+
 #1. Add "Edinburgh Waverley" to the end of the array
 #2. Add "Glasgow Queen St" to the start of the array
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
