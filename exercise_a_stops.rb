@@ -7,7 +7,7 @@ stops.insert(4, "Polmont")
 p stops.index("Linlithgow")
 stops.delete("Livingston")
 stops.delete_at(2)
-p stops
+p stops.length
 
 #1. Add "Edinburgh Waverley" to the end of the array
 #2. Add "Glasgow Queen St" to the start of the array
