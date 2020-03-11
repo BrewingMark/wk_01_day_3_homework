@@ -13,6 +13,8 @@ p stops[-5]
 p stops.at(2)
 p stops.at(-5)
 p stops.slice(2)
+reverse_array = stops.reverse
+p reverse_array
 
 #1. Add "Edinburgh Waverley" to the end of the array
 #2. Add "Glasgow Queen St" to the start of the array
