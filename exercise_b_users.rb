@@ -55,6 +55,7 @@ users = {
 }
 
 p users["Jonathan"][:twitter]
+p users["Erik"][:home_town]
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
 # 2. Get Erik's hometown
