@@ -65,6 +65,11 @@ avril_even_lottery_nums = users["Avril"][:lottery_numbers].keep_if{
 p avril_even_lottery_nums
 users["Erik"][:lottery_numbers].push(7)
 p users["Erik"][:lottery_numbers]
+users["Erik"][:home_town] = "Edinburgh"
+p users["Erik"][:home_town]
+# Add a pet dog called fluffy to erik
+# Add another person
+
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
 # 2. Get Erik's hometown
