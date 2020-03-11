@@ -59,6 +59,10 @@ p users["Erik"][:home_town]
 p users["Erik"][:lottery_numbers]
 p users["Avril"][:pets][0][:species]
 p users["Erik"][:lottery_numbers].min
+avril_even_lottery_nums = users["Avril"][:lottery_numbers].keep_if{
+  |x| x % 2 == 0
+}
+p avril_even_lottery_nums
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
 # 2. Get Erik's hometown
