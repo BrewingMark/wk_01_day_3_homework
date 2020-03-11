@@ -3,6 +3,7 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow",
 
 stops.push("Edinburgh Waverley")
 stops.unshift("Glasgow Queen St")
+stops.insert(4, "Polmont")
 p stops
 
 #1. Add "Edinburgh Waverley" to the end of the array
