@@ -30,6 +30,13 @@ for country in united_kingdom
   p "#{country[:name]}"
 end
 
+population = 0
+for country in united_kingdom
+  population += country[:population]
+end
+p population 
+
+
 
 # 1. Change the capital of Wales from `"Swansea"` to `"Cardiff"`.
 # 2. Create a Hash for Northern Ireland and add it to the `united_kingdom` array (The capital is Belfast, and the population is 1,811,000).
