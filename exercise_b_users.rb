@@ -67,7 +67,13 @@ users["Erik"][:lottery_numbers].push(7)
 p users["Erik"][:lottery_numbers]
 users["Erik"][:home_town] = "Edinburgh"
 p users["Erik"][:home_town]
-# Add a pet dog called fluffy to erik
+# Add a pet dog called fluffy to erik           not working!!!
+users["Erik"][:pets] = {
+  name: "fluffy",
+  species: "dog"
+}
+
+p users["erik"][:pets]
 # Add another person
 
 
